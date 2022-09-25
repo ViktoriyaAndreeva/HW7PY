@@ -9,14 +9,13 @@ def button_click():
         go_to ={
             '1' : function.add,
             '2' : function.delete,
-            '3' : function.upload_format1,
-            '4' : function.upload_format2,
-            '5' : function.create_format1,
-            '6' : function.create_format2,
+            '3' : function.import_format1,
+            '4' : function.import_format2,
+            '5' : function.export_format1,
+            '6' : function.export_format2,
             '7' : function.view_contakt,
-            '8' : function.find_contakt,
-            '9' : function.about_work,
-            '10' : function.exit
+            '8' : function.find_contakt_surname,
+            '9' : function.exit
         }
         go_to[menu]()
     
